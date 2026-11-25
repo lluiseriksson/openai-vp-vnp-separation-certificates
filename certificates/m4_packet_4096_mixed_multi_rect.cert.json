@@ -1,0 +1,73 @@
+{
+  "protocol": "VPVNP-CERT-1.0",
+  "certificate_id": "m4_packet_4096_mixed_multi_rect",
+  "mode": "exterior_packet_11_12_squeeze_cert",
+  "description": "Sec. 8 Lambda(Z^4) 4096-quadruple integral packet identity & 133/150 squeeze (150 packets)",
+  "payload": {
+    "verify_full_4096_packet": true,
+    "sample_quadruples": [
+      [
+        0,
+        0,
+        7,
+        7,
+        0,
+        1,
+        1
+      ],
+      [
+        6,
+        6,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        4,
+        5,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        0,
+        6,
+        3,
+        0,
+        0,
+        0
+      ]
+    ],
+    "selector_histograms": [
+      [
+        18,
+        12
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        30,
+        10
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    "claimed_grouping_a_bits": 798,
+    "claimed_grouping_b_bits": 852,
+    "claimed_min_bits": 798,
+    "claimed_unaltered_bits": 900,
+    "claimed_ratio": [
+      133,
+      150
+    ]
+  }
+}

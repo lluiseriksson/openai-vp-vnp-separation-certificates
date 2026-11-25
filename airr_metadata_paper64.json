@@ -1,0 +1,22 @@
+{
+  "title": "Constructive Lean 4 Kernel and Exact Zero-Float Certificates for OpenAI's VP != VNP Separation Preprint",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "A November 23, 2026 companion preprint from OpenAI proposes a superpolynomial border arithmetic circuit lower bound exp(Omega((log n)^(5/4))) separating Valiant's classes VP and VNP over every field (and excluding padded permanents from determinant orbit closures outside characteristic two). Rather than assuming peer-reviewed endorsement of its algebraic-curve normalization, RAM transcript compilation, or iterated Euclidean packing proofs, we deliver an independent, explicitly scoped, zero-floating-point verification companion for its discrete algebraic, strict wire-shortening hinge, replay-boundary contradiction, characteristic-p Cartier extraction, signed-permutation Clifford involution, Gray-code windowed host, and integral exterior-algebra Lambda(Z^4) 11/12 packet-crossing mechanisms. Layer 1 (OpenAIVpVnpSeparation.lean) proves 18 standalone constructive Lean 4.35.0 algebraic and combinatorial sub-lemmas (zero sorry, zero axiom, zero Classical.choice, zero warnings; 2 none, 2 [propext], and 14 [propext, Quot.sound]). Layer 2 (VPVNP-CERT-1.0) is a pure-stdlib Python int/Fraction 4-mode auditor certifying 16 canonical finite witnesses in 0.023-5.445 ms—including exhaustive 4096-quadruple verification of the integral Lambda(Z^4) crossing factorization over Z—and rejecting 74/74 live adversarial forgeries with exact branch assertions (80/80 pytest checks).",
+  "primary_subject": "Computer and information sciences",
+  "secondary_subjects": ["Mathematics"],
+  "keywords": [
+    "VP versus VNP",
+    "Valiant's algebraic complexity classes",
+    "permanent versus determinant",
+    "Lean 4 formal verification",
+    "Cartier operator in positive characteristic",
+    "Clifford anticommuting involutions",
+    "exterior algebra crossing identity",
+    "zero-float certificate verification"
+  ],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "repo_url": "https://github.com/lluiseriksson/openai-vp-vnp-separation-certificates",
+  "release_tag": "v1.0.0",
+  "pdf_relpath": "paper/main.pdf"
+}

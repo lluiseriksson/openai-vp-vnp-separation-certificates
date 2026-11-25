@@ -1,0 +1,87 @@
+{
+  "protocol": "VPVNP-CERT-1.0",
+  "certificate_id": "m2_cartier_f5_q5_box",
+  "mode": "cartier_residue_box_cert",
+  "description": "Secs. 5.1-5.2 Cartier Lambda_5 box stability (H=24) & cyclic orthogonality over F_5",
+  "payload": {
+    "prime_p": 5,
+    "q_power": 5,
+    "L_bound": 2,
+    "S_bound": 2,
+    "H_box": 24,
+    "g_poly": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "f_box_poly": [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        -1,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "D_test_poly": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "mu_x": 1,
+    "claimed_cartier_terms": [
+      [
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "ortho_target_exp": [
+      1,
+      -1
+    ],
+    "claimed_ortho_coeff": 1
+  }
+}

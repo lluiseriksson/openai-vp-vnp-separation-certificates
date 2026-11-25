@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "dim_D": 2,
+      "ambient_dim": 4,
+      "anticommuting_pairs": 1,
+      "q_cycles": 4,
+      "volume_halving_log2": 8
+    },
+    {
+      "dim_D": 3,
+      "ambient_dim": 8,
+      "anticommuting_pairs": 3,
+      "q_cycles": 6,
+      "volume_halving_log2": 12
+    },
+    {
+      "dim_D": 4,
+      "ambient_dim": 16,
+      "anticommuting_pairs": 6,
+      "q_cycles": 8,
+      "volume_halving_log2": 16
+    },
+    {
+      "dim_D": 5,
+      "ambient_dim": 32,
+      "anticommuting_pairs": 10,
+      "q_cycles": 10,
+      "volume_halving_log2": 20
+    }
+  ]
+}

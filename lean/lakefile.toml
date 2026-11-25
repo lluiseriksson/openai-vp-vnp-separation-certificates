@@ -1,0 +1,7 @@
+name = "OpenAIVpVnpSeparation"
+version = "0.1.0"
+defaultTargets = ["OpenAIVpVnpSeparation"]
+
+[[lean_lib]]
+name = "OpenAIVpVnpSeparation"
+moreLeanArgs = ["-j", "1"]

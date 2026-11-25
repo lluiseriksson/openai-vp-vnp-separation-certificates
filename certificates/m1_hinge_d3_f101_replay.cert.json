@@ -1,0 +1,102 @@
+{
+  "protocol": "VPVNP-CERT-1.0",
+  "certificate_id": "m1_hinge_d3_f101_replay",
+  "mode": "hinge_stretch_and_replay_cert",
+  "description": "Def. 2.1 / Sec. 2.1 / Thm. 3.1 witness: D=3, m=6, F_101 dim=4 replay-boundary contradiction",
+  "payload": {
+    "shortening_D": 3,
+    "shortening_m": 6,
+    "shortening_w": 25,
+    "shortening_A": 3,
+    "hub_m": 20,
+    "hub_u_num": 1,
+    "hub_u_den": 20,
+    "hub_G": 12,
+    "hub_D": 3,
+    "hub_h": 40,
+    "replay_prime_p": 101,
+    "replay_dim": 4,
+    "marked_pin": 1,
+    "omega_vec": [
+      7,
+      13,
+      19,
+      29
+    ],
+    "W_matrices": [
+      [
+        [
+          3,
+          1,
+          4,
+          2
+        ],
+        [
+          5,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          6,
+          3,
+          4
+        ],
+        [
+          2,
+          2,
+          7,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          1,
+          2
+        ],
+        [
+          3,
+          2,
+          0,
+          6
+        ],
+        [
+          7,
+          1,
+          3,
+          5
+        ]
+      ]
+    ],
+    "coeff_weights": [
+      [
+        11,
+        5,
+        8,
+        2
+      ],
+      [
+        3,
+        9,
+        4,
+        12
+      ]
+    ],
+    "F_c_row": [
+      3,
+      46,
+      29,
+      71
+    ],
+    "claimed_e_star_omega": 13
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "protocol": "VPVNP-CERT-1.0",
+  "count": 16,
+  "certificates": [
+    {
+      "certificate_id": "m1_hinge_d2_f7_replay",
+      "mode": "hinge_stretch_and_replay_cert",
+      "mean_ms": 0.029,
+      "summary": {
+        "mode": "hinge_stretch_and_replay_cert",
+        "shortening_D": 2,
+        "shortening_m": 4,
+        "hub_delta_cost": "-63/10",
+        "replay_prime_p": 7,
+        "contradiction_nonzero_e_star_omega": 3,
+        "certificate_id": "m1_hinge_d2_f7_replay",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_hinge_d3_f101_replay",
+      "mode": "hinge_stretch_and_replay_cert",
+      "mean_ms": 0.042,
+      "summary": {
+        "mode": "hinge_stretch_and_replay_cert",
+        "shortening_D": 3,
+        "shortening_m": 6,
+        "hub_delta_cost": "-197/20",
+        "replay_prime_p": 101,
+        "contradiction_nonzero_e_star_omega": 13,
+        "certificate_id": "m1_hinge_d3_f101_replay",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_hinge_d4_f257_replay",
+      "mode": "hinge_stretch_and_replay_cert",
+      "mean_ms": 0.026,
+      "summary": {
+        "mode": "hinge_stretch_and_replay_cert",
+        "shortening_D": 4,
+        "shortening_m": 8,
+        "hub_delta_cost": "-1976/125",
+        "replay_prime_p": 257,
+        "contradiction_nonzero_e_star_omega": 37,
+        "certificate_id": "m1_hinge_d4_f257_replay",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m1_hinge_d6_f1009_replay",
+      "mode": "hinge_stretch_and_replay_cert",
+      "mean_ms": 0.031,
+      "summary": {
+        "mode": "hinge_stretch_and_replay_cert",
+        "shortening_D": 6,
+        "shortening_m": 10,
+        "hub_delta_cost": "-112/5",
+        "replay_prime_p": 1009,
+        "contradiction_nonzero_e_star_omega": 71,
+        "certificate_id": "m1_hinge_d6_f1009_replay",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_cartier_f5_q5_box",
+      "mode": "cartier_residue_box_cert",
+      "mean_ms": 0.125,
+      "summary": {
+        "mode": "cartier_residue_box_cert",
+        "prime_p": 5,
+        "q_power": 5,
+        "H_box": 24,
+        "cartier_nonzero_terms": 2,
+        "ortho_coeff": 1,
+        "certificate_id": "m2_cartier_f5_q5_box",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_cartier_f7_q7_box",
+      "mode": "cartier_residue_box_cert",
+      "mean_ms": 0.19,
+      "summary": {
+        "mode": "cartier_residue_box_cert",
+        "prime_p": 7,
+        "q_power": 7,
+        "H_box": 28,
+        "cartier_nonzero_terms": 1,
+        "ortho_coeff": 6,
+        "certificate_id": "m2_cartier_f7_q7_box",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_cartier_f11_q11_box",
+      "mode": "cartier_residue_box_cert",
+      "mean_ms": 0.56,
+      "summary": {
+        "mode": "cartier_residue_box_cert",
+        "prime_p": 11,
+        "q_power": 11,
+        "H_box": 28,
+        "cartier_nonzero_terms": 2,
+        "ortho_coeff": 5,
+        "certificate_id": "m2_cartier_f11_q11_box",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m2_cartier_f13_q13_box",
+      "mode": "cartier_residue_box_cert",
+      "mean_ms": 0.841,
+      "summary": {
+        "mode": "cartier_residue_box_cert",
+        "prime_p": 13,
+        "q_power": 13,
+        "H_box": 32,
+        "cartier_nonzero_terms": 2,
+        "ortho_coeff": 6,
+        "certificate_id": "m2_cartier_f13_q13_box",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_clifford_d2_l6_gray4",
+      "mode": "clifford_signed_perm_and_gray_cert",
+      "mean_ms": 0.023,
+      "summary": {
+        "mode": "clifford_signed_perm_and_gray_cert",
+        "dim_D": 2,
+        "vec_norm2": 204,
+        "ortho_pairs_verified": 1,
+        "gray_states_verified": 16,
+        "certificate_id": "m3_clifford_d2_l6_gray4",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_clifford_d3_l8_gray5",
+      "mode": "clifford_signed_perm_and_gray_cert",
+      "mean_ms": 0.03,
+      "summary": {
+        "mode": "clifford_signed_perm_and_gray_cert",
+        "dim_D": 3,
+        "vec_norm2": 204,
+        "ortho_pairs_verified": 3,
+        "gray_states_verified": 32,
+        "certificate_id": "m3_clifford_d3_l8_gray5",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_clifford_d4_l10_gray6",
+      "mode": "clifford_signed_perm_and_gray_cert",
+      "mean_ms": 0.058,
+      "summary": {
+        "mode": "clifford_signed_perm_and_gray_cert",
+        "dim_D": 4,
+        "vec_norm2": 11896,
+        "ortho_pairs_verified": 6,
+        "gray_states_verified": 64,
+        "certificate_id": "m3_clifford_d4_l10_gray6",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m3_clifford_d5_l12_gray8",
+      "mode": "clifford_signed_perm_and_gray_cert",
+      "mean_ms": 0.15,
+      "summary": {
+        "mode": "clifford_signed_perm_and_gray_cert",
+        "dim_D": 5,
+        "vec_norm2": 270448,
+        "ortho_pairs_verified": 10,
+        "gray_states_verified": 256,
+        "certificate_id": "m3_clifford_d5_l12_gray8",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_packet_4096_balanced_11_12",
+      "mode": "exterior_packet_11_12_squeeze_cert",
+      "mean_ms": 5.427,
+      "summary": {
+        "mode": "exterior_packet_11_12_squeeze_cert",
+        "clifford_pairs_verified": 64,
+        "packet_quadruples_verified": 4096,
+        "total_packets": 100,
+        "squeeze_ratio": "11/12",
+        "certificate_id": "m4_packet_4096_balanced_11_12",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_packet_4096_skewed_3_4",
+      "mode": "exterior_packet_11_12_squeeze_cert",
+      "mean_ms": 5.401,
+      "summary": {
+        "mode": "exterior_packet_11_12_squeeze_cert",
+        "clifford_pairs_verified": 64,
+        "packet_quadruples_verified": 4096,
+        "total_packets": 130,
+        "squeeze_ratio": "61/78",
+        "certificate_id": "m4_packet_4096_skewed_3_4",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_packet_4096_pure_term0_2_3",
+      "mode": "exterior_packet_11_12_squeeze_cert",
+      "mean_ms": 5.445,
+      "summary": {
+        "mode": "exterior_packet_11_12_squeeze_cert",
+        "clifford_pairs_verified": 64,
+        "packet_quadruples_verified": 4096,
+        "total_packets": 100,
+        "squeeze_ratio": "2/3",
+        "certificate_id": "m4_packet_4096_pure_term0_2_3",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    },
+    {
+      "certificate_id": "m4_packet_4096_mixed_multi_rect",
+      "mode": "exterior_packet_11_12_squeeze_cert",
+      "mean_ms": 5.41,
+      "summary": {
+        "mode": "exterior_packet_11_12_squeeze_cert",
+        "clifford_pairs_verified": 64,
+        "packet_quadruples_verified": 4096,
+        "total_packets": 150,
+        "squeeze_ratio": "133/150",
+        "certificate_id": "m4_packet_4096_mixed_multi_rect",
+        "protocol": "VPVNP-CERT-1.0"
+      }
+    }
+  ]
+}

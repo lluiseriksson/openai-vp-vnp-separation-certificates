@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openai-vp-vnp-separation-certificates"
+version = "1.0.0"
+description = "Constructive Lean 4.35.0 kernel and exact zero-float certificate auditor for OpenAI's VP != VNP separation preprint (VPVNP-CERT-1.0)"
+authors = [{name = "Lluis Eriksson"}]
+license = {text = "MIT"}
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

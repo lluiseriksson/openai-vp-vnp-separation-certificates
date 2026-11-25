@@ -1,0 +1,20 @@
+{
+  "protocol": "VPVNP-CERT-1.0",
+  "certificate_id": "m3_clifford_d2_l6_gray4",
+  "mode": "clifford_signed_perm_and_gray_cert",
+  "description": "Sec. 7 D=2 anticommuting involutions A_1..A_2, windowed host l=6, a=1, 4-bit Gray code",
+  "payload": {
+    "dim_D": 2,
+    "witness_vector": [
+      3,
+      -5,
+      7,
+      11
+    ],
+    "cycle_len_l": 6,
+    "radius_a": 1,
+    "claimed_Va": 5308416,
+    "claimed_Va_next": 20736,
+    "gray_bits": 4
+  }
+}
